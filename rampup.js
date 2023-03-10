@@ -2,6 +2,9 @@
 // Los mayores de edad (18 años).
 // Los menores de 18 años legalmente emancipados.
 // Mayores de 16 y menores de 18 si tienen autorización de los padres.
+
+
+
 const people = [
   { name: 'Ana', age: 17, isEmancipated: false, isAuthorizated: false },
   { name: 'Berto', age: 15, isEmancipated: true, isAuthorizated: false },
@@ -24,5 +27,5 @@ for (let i = 0; i < people.length; i++) {
     canSignContract = person.isAuthorizated;
   }
 
-  console.log(`${person.name} can sign a contract: ${canSignContract}`);
+  console.log(person.name + ' can sign contract: ' + canSignContract);
 }
