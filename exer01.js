@@ -2,7 +2,7 @@
 // conducir.
 
 
-const age = 18;
+const age = 35;
 if (age >= 18) {
   console.log('Es mayor de edad, puede conducir');
 } else {
