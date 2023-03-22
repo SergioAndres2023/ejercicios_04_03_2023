@@ -1,0 +1,150 @@
+*{
+    /* padding: 0px;
+    margin: 0px; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    /* height: 50%;
+    width: 100%; */
+    display: flex;
+    background-color: #303030
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    width: 1000px;
+    align-items: center;
+}
+.history{
+    color: #909090;
+    font-size: 35px;
+
+}
+
+.in-flex{
+    height: 50px;
+    width: 1000px;
+    display: flex;
+
+    background-color: #606060;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.anos80,.anos90,.anos2000{
+    background-color: #909090;
+    color: #303030;
+    height: 42px;
+    width: 155px;
+    text-align: center;
+    font-size: 23px;
+    display: inline-block;
+    cursor: pointer;
+    line-height: 42px;
+    
+} 
+/*  */
+
+.nav{
+    /* height: 400px;
+    width: 1000px;
+    background-color: #909090;
+    display: flex; */
+
+    height: 400px;
+    width: 1000px;
+    background-color: #909090;
+    display: flex;
+    align-items: center;
+}
+
+/* ----------------------------------- */
+
+.container01{
+   
+    /* width: 900px;
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 80px; */
+
+    width: 1000px;
+    display: flex;
+    
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+    /* height: 100px;
+    width: 1000px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px; */
+    
+}
+.discos01 {
+    display: flex;
+    /* width: 100px; */
+    height: 100px;
+    /* margin-left: 35px;
+    margin-top: 35px;
+    order: 2; */
+}
+.text {
+    color: #303030;
+    display: flex;
+    font-size: 16px;
+    order: 1;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+/* --------------------------------------- */
+.footer{
+    height: 120px;
+    width: 1000px;
+    color: #909090;
+    /* background-color: #303030; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
