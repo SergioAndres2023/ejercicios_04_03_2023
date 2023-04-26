@@ -1,0 +1,15 @@
+#root {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px;
+}

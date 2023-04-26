@@ -1,0 +1,109 @@
+/* #root {
+  display: flex;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.row{
+  display: flex;
+}
+
+.cell {
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(0, 0, 0);
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.hit {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+.shunk {
+  background-color: rgba(230, 241, 18, 0.726);
+  color: white;
+  font-weight: bold;
+}
+
+.water {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+} */
+
+/* --------------------------- */
+
+
+
+
+/* Estilos para el contenedor principal */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el tablero */
+.board {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Estilos para las filas del tablero */
+.row{
+  display: flex;
+}
+
+/* Estilos para las celdas del tablero */
+.cell {
+  height: 35px;
+  width: 35px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(103, 102, 102);
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* Estilos para las celdas de acierto */
+.hit {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos para las celdas de hundimiento */
+.shunk {
+  background-color: rgba(230, 241, 18, 0.726);
+  color: white;
+  font-weight: bold;
+}
+
+/* Estilos para las celdas de agua */
+.water {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+
